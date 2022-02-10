@@ -6,10 +6,19 @@ namespace LessonModule3
     {
         static void Main(string[] args)
         {
-
-            string MyName = "George";
+            string Numbers = "123456";
+            const string MyName = "George";
             Console.WriteLine(MyName);
-            Console.ReadLine();
+
+            Console.WriteLine("\tСтроковый литерал 1:\n" + Numbers);
+            Console.WriteLine("Hello! Привет!");
+
+            Console.WriteLine("\x23");
+
+
+
+            Console.ReadKey();
+
 
         }
     }
