@@ -6,16 +6,17 @@ namespace LessonModule3
     {
         static void Main(string[] args)
         {
-            string Numbers = "123456";
             const string MyName = "George";
+            byte MyAge = 19;
+            bool MyPet = true;
+            float MySizeOfShoes = 37.5f;
+
             Console.WriteLine(MyName);
 
-            Console.WriteLine("\tСтроковый литерал 1:\n" + Numbers);
-            Console.WriteLine("Hello! Привет!");
-
-            Console.WriteLine("\x23");
-
-
+            Console.WriteLine("My name is " + MyName);
+            Console.WriteLine("I'm" + MyAge);
+            Console.WriteLine("Do you have a pet" + MyPet);
+            Console.WriteLine("My shoes size is " + MySizeOfShoes);
 
             Console.ReadKey();
 
